@@ -1,0 +1,211 @@
+* {border:1px solid blue}
+
+html {
+    color: black;
+    background: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+}
+
+h2 {
+    text-align:center;
+    border:solid 1px black;
+    width: 300px;
+    margin:50px auto 0px;
+    padding: 15px 0px;
+    font-family: 'Rokkitt', serif;
+    font-weight:700;
+    font-size:1.5em;
+}
+
+h1, h3 {
+    font-family: 'Rokkitt', serif;
+    font-weight:700;
+}
+
+#ctr {
+    display:block;
+    max-width:900px;
+    margin:100px auto;
+}
+
+/*.nav-collapse {*/
+/*    background: white;*/
+/*    opacity: 0.7;*/
+/*    width:110%;*/
+/*    position: fixed;*/
+/*    top: 0px;*/
+/*    left:0px;*/
+/*    height: 60px;*/
+/*    overflow:hidden;*/
+/*    display:block;*/
+/*    text-align:center;*/
+/*}*/
+
+/*.nav-collapse li {*/
+/*    display:inline-block;*/
+/*    margin: 5px 10px;*/
+/*    font-size: 16px;*/
+/*}*/
+
+/*#logo {*/
+/*    float:left;*/
+/*    margin:15px 75px;*/
+/*}*/
+
+/*#logo span {*/
+/*    font-size:15px;*/
+/*}*/
+
+/*===============
+     ABOUT ME
+  =============== */
+
+#about {
+    margin-top:50px;
+    margin:auto;
+    text-align:center;
+}
+
+#portrait, #basic-info {
+  display:inline-block;
+}
+
+#portrait {
+  background:black;
+  height:200px;
+  width:200px;
+  margin:0 20px;
+}
+
+#basic-info {
+    text-align:left;
+    vertical-align:top;
+}
+
+#basic-info h3 {
+    margin-top: 5px;
+}
+
+#basic-info ul {
+    list-style:none;
+    padding-left:0;
+}
+#basic-info ul span {
+    font-weight:900;
+}
+#social-bar li {
+    display:inline;
+    margin-right:5px;
+    padding:5px;
+    background:#BBBBBB;
+}
+
+#story {
+    margin:auto;
+    max-width:700px;
+}
+
+#map-ctr {
+    max-width:700px;
+    height:300px;
+    background-color:#BBBBBB;
+}
+
+#story p {text-align:justify;}
+
+/* ===========================
+   WORK EXPERIENCE & EDUCATION
+   =========================== */
+.left-column {
+    width:242px;
+    vertical-align:top;
+    text-align:right;
+    margin-right:20px;
+    padding-top:15px;
+    display:inline-block;
+}
+
+.right-column {
+    margin-left:20px;
+    display:inline-block;
+    max-width:575px;
+}
+
+.date-range {display:block;}
+
+.date-range h3 span {
+    font-size:32px;
+    line-height:42px;
+    position:relative;
+    vertical-align:baseline;
+    text-transform:uppercase;
+    margin-bottom:-15px;
+}
+
+.date-range span small{
+    position:absolute;
+    margin-top:-20px;
+    left:2px;
+    font-size:12px;
+}
+
+.school {
+    padding-left:15px;
+}
+
+.school span {
+    font-weight:300;
+    font-size:16px
+}
+ 
+.divider1 {
+    width:200px;
+    border:1px solid black;
+    float:right;
+    content:'';
+    margin:-15px 0px 15px 25px;
+    display:block;
+}
+
+.date-range {
+    display:block;
+    margin:5px 0px 5px 0px;
+}
+
+.title-degree {
+    display:block;
+    position:relative;
+    margin-top: 10px;
+    padding-top:10px;
+    font-size:14px;
+}
+ 
+ 
+/* ==============
+     PORTFOLIO
+   ============== */
+
+.gallery {
+    text-align:center;
+    /*margin: 30px auto;*/
+}
+
+.gallery img {
+    display: block;
+    margin:10px auto;
+    padding: 5px;
+}
+
+
+/* RESPONSIVE CSS */
+@media (max-width: 930px) {
+    .right-column{width:350px;}
+}
+
+@media (max-width: 680px) {
+    .left-column {text-align:left; margin-left:20px;}
+    .school {padding-left:0px;}
+    .divider1 {margin: -15px 0px 0px 0px; float:none;}
+}
+
