@@ -4,7 +4,7 @@ $(document).ready(function(){
       arrows:false,
       infinite: false,
       speed: 300,
-      slidesToShow: 3,
+      slidesToShow: 1,
       slidesToScroll: 1,
       responsive: [
         {
@@ -19,7 +19,7 @@ $(document).ready(function(){
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1
           }
         },
